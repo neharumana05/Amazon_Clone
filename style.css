@@ -77,11 +77,13 @@
     border-bottom-right-radius: 0px;
     display: flex;
     text-align: center;
+    font-size: 17px;
 }
 .search {
     height: 32px;
     width: 250px;
     color: gray;
+    font-size: 17px;
 }
 .search-icon {
     height: 35px;
