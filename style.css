@@ -11,6 +11,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -33,7 +34,7 @@
 }
 
 .border:hover {
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
     border-color: white;
 }
@@ -44,6 +45,7 @@
     padding: 1px;
     margin: 1px;
     align-items: center;
+    padding-left: 10px;
 }
 .deliver {
     color: #CCCCCC;
@@ -61,10 +63,17 @@
 
 .nav-search {
     height: 50px;
-    width: 346px;
+    width: 350px;
     background-color: black;
     align-items: center;
     display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.search:hover {
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #F08804 ;
 }
 
 #option {
@@ -94,4 +103,93 @@
     padding-left: 12px;
     display: flex;
     align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.country {
+    height: 50px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    font-size: 15px;
+}
+#language {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+.sign_in {
+    height: 50px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    padding-left: 10px;
+}
+.line1 {
+    font-size: 13px;
+    margin-top: 10px;
+} 
+.line2 {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.r_and_t {
+    height: 50px;
+    width: 90px;
+    padding-left: 10px;
+}
+.return {
+    font-size: 13px;
+    margin-top: 10px;
+}
+.orders {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.cart {
+    height: 50px;
+    width: 80px;
+    font-size: 26px;
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+#panel {
+    height: 50px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.all{
+    height: 45px;
+    width: 59px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 11px;
+}
+.menu_icon {
+    font-size: 23px;
+}
+.all {
+    font-size: 15px;
+    font-weight: bold;
 }
