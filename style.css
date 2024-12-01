@@ -193,3 +193,106 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+.list {
+    display: inline-flex;
+    width: 900px;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-weight: bold;
+}
+.item1 {
+    height: 45px;
+    width: 80px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.item2 {
+    height: 45px;
+    width: 50px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.item3 {
+    height: 45px;
+    width: 90px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.item4 {
+    height: 45px;
+    width: 105px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.item5 {
+    height: 45px;
+    width: 70px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.item6 {
+    height: 45px;
+    width: 90px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.item7 {
+    height: 45px;
+    width: 150px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.item8 {
+    height: 45px;
+    width: 160px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+
+.offer {
+    height: 45px;
+    width: 400px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bolder;
+    background-image: url(banner.jpg);
+    background-size: cover;
+}
+
+.main1 {
+    height: 300px;
+    background-image: url(main_image1.jpg);
+    background-size: cover;
+}
+
+.box1 {
+
+}
